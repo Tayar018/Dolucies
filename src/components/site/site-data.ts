@@ -6,6 +6,68 @@ export const WHATSAPP_HREF =
   "https://wa.me/5512997885557?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20uma%20encomenda%20na%20Dolucies";
 export const CITIES = "São José dos Campos e Pindamonhangaba";
 export const HOURS = "Segunda a sábado, das 8h às 18h";
+export const INSTAGRAM_HREF = "https://www.instagram.com/doluciies/";
+export const INSTAGRAM_HANDLE = "@doluciies";
+
+export interface InstagramPost {
+  id: string;
+  postUrl: string;
+  image: string;
+  title: string;
+  description: string;
+  tag: string;
+}
+
+export const INSTAGRAM_POSTS: InstagramPost[] = [
+  {
+    id: "bolo-alagado",
+    postUrl: "https://www.instagram.com/p/C0ehY0Pgz0t/",
+    image: "/instagram/bolo-alagado-ninho.jpg",
+    title: "Bolo alagado de Leite Ninho com Morango",
+    description: "Um dos grandes queridinhos da Dolucies, bem molhadinho, decorado com flores de chantilly e morangos frescos.",
+    tag: "Bolos",
+  },
+  {
+    id: "torta-morango",
+    postUrl: "https://www.instagram.com/p/CzfYZe6MMLY/",
+    image: "/instagram/torta-morango.jpg",
+    title: "Torta artesanal de Morango",
+    description: "Morangos selecionados, geleia brilhante e base crocante para comemorações e sobremesas especiais.",
+    tag: "Tortas",
+  },
+  {
+    id: "brownies",
+    postUrl: "https://www.instagram.com/p/C0xZRgFMULg/",
+    image: "/instagram/brownies-gourmet.jpg",
+    title: "Brownies artesanais com gotas de chocolate",
+    description: "Massa fofinha por dentro com casquinha crocante e gotas generosas de puro chocolate.",
+    tag: "Brownies",
+  },
+  {
+    id: "doces-artesanais",
+    postUrl: "https://www.instagram.com/p/DcHJo0umuoT/",
+    image: "/instagram/doces-artesanais-gabi.jpg",
+    title: "Doces artesanais feitos com carinho",
+    description: "Confeitaria artesanal pensada para acompanhar o seu café, trabalho ou comemoração em família.",
+    tag: "Doces",
+  },
+  {
+    id: "bolo-artesanal",
+    postUrl: "https://www.instagram.com/reel/C4UKpmLNAWD/",
+    image: "/instagram/bolo-artesanal.jpg",
+    title: "Bolo confeitado à mão",
+    description: "Finalização delicada com morangos frescos e pérolas de açúcar confeitadas na hora.",
+    tag: "Confeitaria",
+  },
+  {
+    id: "lanches-especiais",
+    postUrl: "https://www.instagram.com/p/C3WUKcQIIal/",
+    image: "/instagram/salgados-lanches.jpg",
+    title: "Lanches artesanais fresquinhos",
+    description: "Opções deliciosas preparadas com ingredientes leves e selecionados para qualquer ocasião.",
+    tag: "Especiais",
+  },
+];
 
 export const SERVICES = [
   {

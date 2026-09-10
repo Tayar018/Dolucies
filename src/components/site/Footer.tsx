@@ -1,7 +1,9 @@
-import { CITIES, HOURS, PHONE_PRIMARY_HREF, PHONE_PRIMARY_LABEL } from "./site-data";
+import { Instagram } from "lucide-react";
+import { CITIES, HOURS, INSTAGRAM_HANDLE, INSTAGRAM_HREF, PHONE_PRIMARY_HREF, PHONE_PRIMARY_LABEL } from "./site-data";
 
 const LINKS = [
   { href: "#servicos", label: "Serviços" },
+  { href: "#galeria", label: "Fotos no Instagram" },
   { href: "#sobre", label: "Por que a Dolucies" },
   { href: "#depoimentos", label: "Depoimentos" },
   { href: "#orcamento", label: "Orçamento" },
@@ -16,6 +18,15 @@ export function Footer() {
           <p className="mt-2 text-sm text-primary-foreground/70">
             Confeitaria artesanal em {CITIES}.
           </p>
+          <a
+            href={INSTAGRAM_HREF}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-2 rounded-full border border-primary-foreground/20 bg-primary-foreground/10 px-3.5 py-1.5 text-xs font-semibold text-primary-foreground transition-all hover:border-primary-foreground/40 hover:bg-primary-foreground/20"
+          >
+            <Instagram className="size-3.5" />
+            <span>Siga {INSTAGRAM_HANDLE}</span>
+          </a>
         </div>
 
         <nav aria-label="Links rápidos">
@@ -37,6 +48,15 @@ export function Footer() {
             {PHONE_PRIMARY_LABEL}
           </a>
           <p className="mt-2">{HOURS}</p>
+          <a
+            href={INSTAGRAM_HREF}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 inline-flex items-center gap-1.5 transition-colors hover:text-accent"
+          >
+            <Instagram className="size-3.5" />
+            <span>{INSTAGRAM_HANDLE} no Instagram</span>
+          </a>
         </div>
       </div>
 

@@ -3,10 +3,12 @@ import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
 import { TrustStrip } from "@/components/site/TrustStrip";
 import { Services } from "@/components/site/Services";
+import { InstagramGallery } from "@/components/site/InstagramGallery";
 import { Benefits } from "@/components/site/Benefits";
 import { Testimonials } from "@/components/site/Testimonials";
 import { ContactSection } from "@/components/site/ContactSection";
 import { Footer } from "@/components/site/Footer";
+import { INSTAGRAM_HREF } from "@/components/site/site-data";
 
 const TITLE = "Dolucies | Confeitaria artesanal em São José dos Campos";
 const DESCRIPTION =
@@ -36,6 +38,7 @@ const JSON_LD = {
   areaServed: ["São José dos Campos", "Pindamonhangaba"],
   openingHours: "Mo-Sa 08:00-18:00",
   priceRange: "$$",
+  sameAs: [INSTAGRAM_HREF],
   aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "128" },
 };
 
@@ -48,6 +51,7 @@ function Index() {
         <Hero />
         <TrustStrip />
         <Services />
+        <InstagramGallery />
         <Benefits />
         <Testimonials />
         <ContactSection />
