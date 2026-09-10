@@ -5,7 +5,7 @@ const ITEMS = [
   { icon: Star, label: "4,9 / 5", sub: "avaliação dos clientes" },
   { icon: Heart, label: "+1.200", sub: "encomendas entregues" },
   { icon: MapPin, label: "Atendimento local", sub: CITIES },
-  { icon: Clock, label: "Entrega no prazo", sub: "combinada para o seu evento" },
+  { icon: Clock, label: "Entrega no prazo", sub: "combinada para a sua encomenda" },
 ];
 
 export function TrustStrip() {

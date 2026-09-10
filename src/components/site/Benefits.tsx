@@ -32,7 +32,7 @@ export function Benefits() {
 
         <div className="rounded-3xl border border-border bg-card p-7 text-center shadow-soft lg:w-80">
           <p className="font-display text-2xl font-semibold text-foreground">
-            Vamos adoçar o seu evento?
+            Vamos adoçar o seu dia?
           </p>
           <p className="mt-2 text-sm text-muted-foreground">
             Fale agora com a nossa equipe e receba um orçamento sem compromisso.

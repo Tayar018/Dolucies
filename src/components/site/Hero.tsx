@@ -16,11 +16,11 @@ export function Hero() {
           </span>
 
           <h1 className="mt-4 font-display text-4xl leading-[1.08] font-semibold text-foreground sm:text-5xl">
-            Doces artesanais que deixam a sua festa inesquecível em {CITIES}
+            Doces artesanais que deixam o seu dia mais doce em {CITIES}
           </h1>
 
           <p className="mt-4 max-w-prose text-base text-muted-foreground sm:text-lg">
-            Bolos personalizados, brigadeiros gourmet e mesas de doces feitos à mão, com
+            Brigadeiros gourmet, doces caseiros e sobremesas feitas à mão, com
             ingredientes selecionados e entrega no prazo combinado.
           </p>
 
@@ -55,7 +55,7 @@ export function Hero() {
           <div className="relative overflow-hidden rounded-[2rem] border border-border bg-card shadow-soft">
             <img
               src={heroImg}
-              alt="Bolo de chocolate artesanal com detalhes de pistache e brigadeiros gourmet da Dolucies"
+              alt="Doces artesanais e brigadeiros gourmet da Dolucies"
               width={1280}
               height={1280}
               className="h-full w-full object-cover"

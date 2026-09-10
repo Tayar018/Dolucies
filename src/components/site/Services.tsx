@@ -1,11 +1,11 @@
-import { Cake, Cookie, ChefHat, PartyPopper } from "lucide-react";
+import { Sparkles, Cookie, ChefHat, Gift } from "lucide-react";
 import { SERVICES } from "./site-data";
 
 const ICONS = {
-  cake: Cake,
+  sparkles: Sparkles,
   cookie: Cookie,
   chef: ChefHat,
-  party: PartyPopper,
+  gift: Gift,
 };
 
 export function Services() {
@@ -17,10 +17,10 @@ export function Services() {
             O que fazemos
           </span>
           <h2 className="mt-3 font-display text-3xl font-semibold text-foreground sm:text-4xl">
-            Doces feitos à mão para cada ocasião
+            Doces artesanais feitos com carinho
           </h2>
           <p className="mt-3 text-muted-foreground">
-            Escolha o que combina com o seu momento — cuidamos de tudo, do sabor ao acabamento.
+            Escolha as suas delícias favoritas — cuidamos de tudo, dos melhores ingredientes ao acabamento.
           </p>
         </div>
 

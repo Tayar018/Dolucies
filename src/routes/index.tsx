@@ -10,7 +10,7 @@ import { Footer } from "@/components/site/Footer";
 
 const TITLE = "Dolucies | Confeitaria artesanal em São José dos Campos";
 const DESCRIPTION =
-  "Bolos personalizados, doces caseiros e mesas de doces artesanais em São José dos Campos e Pindamonhangaba. Peça seu orçamento pelo telefone (12) 99788-5557.";
+  "Doces artesanais, brigadeiros gourmet e sobremesas caseiras em São José dos Campos e Pindamonhangaba. Peça seu orçamento pelo telefone (12) 99788-5557.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

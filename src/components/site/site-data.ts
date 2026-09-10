@@ -9,16 +9,16 @@ export const HOURS = "Segunda a sábado, das 8h às 18h";
 
 export const SERVICES = [
   {
-    icon: "cake" as const,
-    title: "Bolos personalizados",
+    icon: "sparkles" as const,
+    title: "Brigadeiros gourmet",
     description:
-      "Bolos de aniversário, casamento e temáticos, feitos sob medida para a sua data especial.",
+      "Brigadeiros artesanais feitos com chocolate nobre e diversos sabores irresistíveis.",
   },
   {
     icon: "cookie" as const,
     title: "Doces caseiros",
     description:
-      "Brigadeiros gourmet, bem-casados, tortas e docinhos feitos com receita de família.",
+      "Palhas italianas, trufas, tortas e docinhos preparados com receita de família.",
   },
   {
     icon: "chef" as const,
@@ -27,10 +27,10 @@ export const SERVICES = [
       "Produção 100% artesanal, com ingredientes selecionados e acabamento feito à mão.",
   },
   {
-    icon: "party" as const,
-    title: "Festas e eventos",
+    icon: "gift" as const,
+    title: "Caixas e presentes",
     description:
-      "Mesa de doces completa para festas, formaturas e eventos corporativos na região.",
+      "Kits especiais e caixinhas de doces para presentear quem você ama ou saborear quando quiser.",
   },
 ];
 
@@ -47,7 +47,7 @@ export const BENEFITS = [
   {
     title: "Ingredientes selecionados e prazo cumprido",
     description:
-      "Chocolate nobre, frutas frescas e compromisso com o horário combinado para o seu evento.",
+      "Chocolate nobre, frutas frescas e compromisso com o horário combinado para a sua entrega.",
   },
 ];
 
@@ -56,13 +56,13 @@ export const TESTIMONIALS = [
     name: "Ana Paula R.",
     city: "São José dos Campos",
     rating: 5,
-    text: "O bolo do aniversário da minha filha ficou perfeito, lindo e delicioso. Todo mundo pediu o contato da Dolucies!",
+    text: "Os doces artesanais são perfeitos, lindos e deliciosos. O brigadeiro de pistache e a palha italiana conquistaram todo mundo aqui em casa!",
   },
   {
     name: "Marcos T.",
     city: "Pindamonhangaba",
     rating: 5,
-    text: "Encomendei a mesa de doces do meu casamento. Chegou no horário e o sabor era de outro mundo. Recomendo demais.",
+    text: "Encomendei uma caixa especial de doces para presentear. Chegou super fresco, caprichado e o sabor era de outro mundo. Recomendo demais.",
   },
   {
     name: "Juliana M.",
@@ -74,14 +74,15 @@ export const TESTIMONIALS = [
     name: "Rafael S.",
     city: "Pindamonhangaba",
     rating: 5,
-    text: "Peço sempre para os eventos da empresa. Qualidade constante e entrega pontual, nunca tive problema.",
+    text: "Peço sempre para sobremesas em família e cafés da tarde. Qualidade constante e entrega pontual, nunca tive problema.",
   },
 ];
 
 export const SERVICE_OPTIONS = [
-  "Bolo personalizado",
-  "Doces para festa",
-  "Mesa de doces / evento",
-  "Encomenda corporativa",
+  "Brigadeiros gourmet",
+  "Doces caseiros",
+  "Sobremesas e tortas",
+  "Kits e caixas para presente",
+  "Encomenda personalizada",
   "Outro",
 ];
